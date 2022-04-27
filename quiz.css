@@ -1,0 +1,80 @@
+.question-container {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.question-feature {
+    background: #00a7c7;
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.choice-text{
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+}
+
+.choice-text:hover {
+    cursor: pointer;
+}
+
+#question {
+    margin-top: 4rem;
+}
+
+.question-feature:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0.4rem 1.4rem 0 #9bcfe0;
+    transition: transform 200ms;
+}
+
+/*background for correct or incorrect choices*/
+.correct {
+    background-image: url(correctImage.png);
+    background-size: cover;
+}
+
+.incorrect {
+    background-image: url(incorrectImage.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+/* Heads up Display */
+#hud {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* text for hud */
+.hud-prefix {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid #80a71a;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: #80a71a;
+    width: 0%;
+}

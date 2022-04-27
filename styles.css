@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Comfortaa', cursive;
+    
+}
+.container {
+    background-color: #f3e9e7;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+    background-image: url(travelPhoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background{
+    background: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgb(0,0,0,0.2);
+    box-shadow: inset 0 0 25px 10px #d6d6d6;
+}
+
+.backgroundQuiz {
+    background: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+    height: 90h;
+    width: 90vw;
+    box-shadow: 0px 0px 10px 10px rgb(0,0,0,0.2);
+    box-shadow: inset 0 0 25px 10px #d6d6d6;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-size: 5.5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 5rem;
+    margin-bottom: 4rem
+}
+
+.quiz {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.home {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.flex-column {
+    display:flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.btn{
+    font-size: 3.5rem;
+    padding: 5rem 2rem;
+    margin: 10px;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background: #00a7c7;
+    border-radius: 5px;
+    display: inline;
+}
+
+.endBtn {
+    font-size: 3.5rem;
+    padding: 2rem 0;
+    margin: 10px;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background: #00a7c7;
+    border-radius: 5px;
+    display: inline;
+}
+
+.homeBtn{
+    font-size: 3rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background: #e76f3d;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.4rem 0 #9bcfe0;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.homeBtn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.4rem 0 #feab6b;
+    transition: transform 150ms;
+    transform: scale(1.02);
+}
+
+
+/* End Page CSS */
+.end {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+#end-text {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.fa-paper-plane {
+    font-size: 5rem;
+    margin-left: 2rem;
+}
