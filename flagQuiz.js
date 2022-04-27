@@ -1,3 +1,8 @@
+
+//Most of the following code has been influenced and sourced from the following references:
+//Brian Design (2020) quiz-app-js source code (Version 1.0)[Source Code] https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3255s
+//Learn{to}Code (2021) Building Quiz App with HTML, CSS and JavaScript (Version 1.0)[Source Code] https://www.youtube.com/watch?v=icb9AUBeznQ&t=1788s
+
 //dom querying to grab the id and store it in a variable
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
