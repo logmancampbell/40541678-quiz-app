@@ -111,6 +111,13 @@ li {
     display: inline;
 }
 
+.endBtn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.4rem 0 #9bcfe0;
+    transition: transform 150ms;
+    transform: scale(1.03)
+}
+
 .homeBtn{
     font-size: 3rem;
     padding: 2rem 0;
