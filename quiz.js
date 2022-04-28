@@ -172,6 +172,7 @@ choices.forEach(choice => {
 
         //default classToApply is incorrect, however, if the selectedAnswer is correct it'll change that value
         let classToApply = 'incorrect'
+            //if the answer chosen by the user matches the number of the answer in the question array then...
             if (selectedAnswer == currentQuestion.answer) {
                 classToApply = 'correct'
             }
